@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#00796B">
+
+    <!-- Total Deducted TextView -->
+    <TextView
+        android:id="@+id/textViewTotalDeducted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Total Deducted: "
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <!-- Total Added TextView -->
+    <TextView
+        android:id="@+id/textViewTotalAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTotalDeducted"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+    android:text="Total Added: "
+    android:textColor="@android:color/black"
+    android:textSize="12sp" />
+
+    <!-- Start Date Picker Button -->
+    <Button
+        android:id="@+id/btnStartDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTotalAdded"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+    android:backgroundTint="#044E45"
+    android:text="Start Date" />
+
+    <!-- End Date Picker Button -->
+    <Button
+        android:id="@+id/btnEndDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStartDatePicker"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+    android:backgroundTint="#044E45"
+    android:text="End Date" />
+
+    <!-- Print Button -->
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/btnEndDatePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#FEFEFE"
+        android:backgroundTint="#FFFFFF"
+        android:text="Print" />
+
+    <!-- ListView for Transactions -->
+    <ListView
+        android:id="@+id/listViewTransactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPrint"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

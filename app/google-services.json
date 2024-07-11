@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "429244367899",
+    "firebase_url": "https://instabank-8e2a2-default-rtdb.firebaseio.com",
+    "project_id": "instabank-8e2a2",
+    "storage_bucket": "instabank-8e2a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429244367899:android:ced3eb6a021b8bb32324be",
+        "android_client_info": {
+          "package_name": "com.example.instabank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1IMdk1PqrMFvGibyeSd2lfdUtZu6Gv6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
